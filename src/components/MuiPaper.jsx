@@ -7,7 +7,7 @@ const MuiPaper = () => {
   return (
     <Grid container marginY={4} spacing={2}>
       {array.map((item) => (
-        <Grid item xs={12} sm={2}>
+        <Grid item xs={12} sm={2} md={4}>
           <Paper elevation={12} sx={{padding: 0.5}}>
             <Box bgcolor="primary.light" p={2} sx={{ height: "200px" }}>
               item 1
