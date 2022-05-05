@@ -1,11 +1,14 @@
 import { useState } from "react";
 import "./App.css";
+import MuiAccordion from "./components/MuiAccordion";
 import MuiAutocomplete from "./components/MuiAutocomplete";
 import MUIBox from "./components/MUIBox";
 import { Muibutton } from "./components/Muibutton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckbox from "./components/MuiCheckbox";
 import MuiGrid from "./components/MuiGrid";
+import MuiImageList from "./components/MuiImageList";
+import MuiNavbar from "./components/MuiNavbar";
 import MuiPaper from "./components/MuiPaper";
 import MuiRadio from "./components/MuiRadio";
 import MuiRating from "./components/MuiRating";
@@ -33,7 +36,10 @@ function App() {
       {/* <MuiStack /> */}
       {/* <MuiGrid /> */}
       {/* <MuiPaper /> */}
-      <MuiCard />
+      {/* <MuiCard /> */}
+      {/* <MuiAccordion /> */}
+      {/* <MuiImageList /> */}
+      <MuiNavbar />
     </div>
   );
 }
