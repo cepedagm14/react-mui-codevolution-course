@@ -10,6 +10,7 @@ import MuiButtomNavigation from "./components/MuiButtomNavigation";
 import { Muibutton } from "./components/Muibutton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckbox from "./components/MuiCheckbox";
+import MuiChip from "./components/MuiChip";
 import MuiDrawer from "./components/MuiDrawer";
 import MuiGrid from "./components/MuiGrid";
 import MuiImageList from "./components/MuiImageList";
@@ -24,7 +25,9 @@ import MuiSelect from "./components/MuiSelect";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiStack from "./components/MuiStack";
 import MuiSwich from "./components/MuiSwich";
+import MuiTable from "./components/MuiTable";
 import { MuiTextfield } from "./components/MuiTextfield";
+import MuiToolTips from "./components/MuiToolTips";
 import MuiTypography from "./components/MuiTypography";
 
 function App() {
@@ -34,7 +37,7 @@ function App() {
     <div className="App">
       {/* <MuiTypography /> */}
       {/* <Muibutton /> */}
-      <MuiTextfield />
+      {/* <MuiTextfield /> */}
       {/* <MuiSelect /> */}
       {/* <MuiRadio/> */}
       {/* <MuiCheckbox /> */}
@@ -57,7 +60,10 @@ function App() {
       {/* <MuiButtomNavigation /> */}
       {/* <MuiAvatar /> */}
       {/* <MuiBadge /> */}
-      <MuiList/>
+      {/* <MuiList/> */}
+      {/* <MuiChip /> */}
+      {/* <MuiToolTips /> */}
+      {/* <MuiTable/> */}
     </div>
   );
 }
