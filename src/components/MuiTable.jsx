@@ -12,7 +12,7 @@ const MuiTable = () => {
   return (
     <TableContainer component={Paper} sx={{ maxHeight: "300px" }}>
       <Table aria-label="simple table" stickyHeader>
-        <TableHead >
+        <TableHead>
           <TableRow>
             <TableCell>Id</TableCell>
             <TableCell>Name</TableCell>

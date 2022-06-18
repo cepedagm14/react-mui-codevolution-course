@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import MuiAccordion from "./components/MuiAccordion";
+import MuiAlert from "./components/MuiAlert";
 import MuiAutocomplete from "./components/MuiAutocomplete";
 import MuiAvatar from "./components/MuiAvatar";
 import MuiBadge from "./components/MuiBadge";
@@ -11,6 +12,7 @@ import { Muibutton } from "./components/Muibutton";
 import MuiCard from "./components/MuiCard";
 import MuiCheckbox from "./components/MuiCheckbox";
 import MuiChip from "./components/MuiChip";
+import MuiDialog from "./components/MuiDialog";
 import MuiDrawer from "./components/MuiDrawer";
 import MuiGrid from "./components/MuiGrid";
 import MuiImageList from "./components/MuiImageList";
@@ -22,6 +24,7 @@ import MuiPaper from "./components/MuiPaper";
 import MuiRadio from "./components/MuiRadio";
 import MuiRating from "./components/MuiRating";
 import MuiSelect from "./components/MuiSelect";
+import MuiSnackbar from "./components/MuiSnackbar";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiStack from "./components/MuiStack";
 import MuiSwich from "./components/MuiSwich";
@@ -64,6 +67,9 @@ function App() {
       {/* <MuiChip /> */}
       {/* <MuiToolTips /> */}
       {/* <MuiTable/> */}
+      {/* <MuiAlert/> */}
+      {/* <MuiSnackbar /> */}
+      <MuiDialog />
     </div>
   );
 }
