@@ -41,6 +41,7 @@ import MuiTypography from "./components/MuiTypography";
 import MuiTabs from "./components/MuiTabs";
 import MuiTimeline from "./components/MuiTimeline";
 import MuiMasonry from "./components/MuiMasonry";
+import MuiResponsiveness from "./components/MuiResponsiveness";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -86,7 +87,8 @@ function App() {
         {/* <MuiDateTime /> */}
         {/* <MuiTabs/> */}
         {/* <MuiTimeline/> */}
-        <MuiMasonry/>
+        {/* <MuiMasonry/> */}
+        <MuiResponsiveness/>
       </div>
     </LocalizationProvider>
   );
