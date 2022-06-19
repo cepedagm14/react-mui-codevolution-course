@@ -34,7 +34,6 @@ const MuiSkeleton = () => {
               variant="circular"
               width={40}
               height={40}
-              animation="wave"
             />
           ) : (
             <Avatar>V</Avatar>
