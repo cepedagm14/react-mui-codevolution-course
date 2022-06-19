@@ -39,6 +39,7 @@ import { MuiTextfield } from "./components/MuiTextfield";
 import MuiToolTips from "./components/MuiToolTips";
 import MuiTypography from "./components/MuiTypography";
 import MuiTabs from "./components/MuiTabs";
+import MuiTimeline from "./components/MuiTimeline";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -82,7 +83,8 @@ function App() {
         {/* <MuiSkeleton/> */}
         {/* <MuiLoadingButton/> */}
         {/* <MuiDateTime /> */}
-        <MuiTabs/>
+        {/* <MuiTabs/> */}
+        <MuiTimeline/>
       </div>
     </LocalizationProvider>
   );
