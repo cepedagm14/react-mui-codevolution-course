@@ -25,6 +25,7 @@ import MuiProgress from "./components/MuiProgress";
 import MuiRadio from "./components/MuiRadio";
 import MuiRating from "./components/MuiRating";
 import MuiSelect from "./components/MuiSelect";
+import MuiSkeleton from "./components/MuiSkeleton";
 import MuiSnackbar from "./components/MuiSnackbar";
 import MuiSpeedDial from "./components/MuiSpeedDial";
 import MuiStack from "./components/MuiStack";
@@ -38,7 +39,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App">
+    <div className="App">   
       {/* <MuiTypography /> */}
       {/* <Muibutton /> */}
       {/* <MuiTextfield /> */}
@@ -71,7 +72,8 @@ function App() {
       {/* <MuiAlert/> */}
       {/* <MuiSnackbar /> */}
       {/* <MuiDialog /> */}
-      <MuiProgress/>
+      {/* <MuiProgress/> */}
+      <MuiSkeleton/>
     </div>
   );
 }
