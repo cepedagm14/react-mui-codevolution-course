@@ -38,7 +38,7 @@ import MuiTable from "./components/MuiTable";
 import { MuiTextfield } from "./components/MuiTextfield";
 import MuiToolTips from "./components/MuiToolTips";
 import MuiTypography from "./components/MuiTypography";
-import MuiRangePicker from "./components/MuiRangePicker";
+import MuiTabs from "./components/MuiTabs";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -82,7 +82,7 @@ function App() {
         {/* <MuiSkeleton/> */}
         {/* <MuiLoadingButton/> */}
         {/* <MuiDateTime /> */}
-        <MuiRangePicker/>
+        <MuiTabs/>
       </div>
     </LocalizationProvider>
   );
