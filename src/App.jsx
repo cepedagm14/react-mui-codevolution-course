@@ -40,6 +40,7 @@ import MuiToolTips from "./components/MuiToolTips";
 import MuiTypography from "./components/MuiTypography";
 import MuiTabs from "./components/MuiTabs";
 import MuiTimeline from "./components/MuiTimeline";
+import MuiMasonry from "./components/MuiMasonry";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -84,7 +85,8 @@ function App() {
         {/* <MuiLoadingButton/> */}
         {/* <MuiDateTime /> */}
         {/* <MuiTabs/> */}
-        <MuiTimeline/>
+        {/* <MuiTimeline/> */}
+        <MuiMasonry/>
       </div>
     </LocalizationProvider>
   );
